@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Sentient Attendance">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B2A28"/><stop offset="0.55" stop-color="#1B5E5A"/><stop offset="1" stop-color="#0E3F5C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.2" r="0.6"><stop offset="0" stop-color="#00E5C3" stop-opacity="0.35"/><stop offset="1" stop-color="#00E5C3" stop-opacity="0"/></radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.05"/></linearGradient>
+  </defs>
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#glow)"/>
+  <circle cx="1010" cy="240" r="170" fill="#ffffff" fill-opacity="0.035"/>
+  <circle cx="1090" cy="80" r="110" fill="#00E5C3" fill-opacity="0.06"/>
+  <g transform="translate(70,70)">
+    <rect width="180" height="180" rx="40" fill="url(#glass)" stroke="#ffffff" stroke-opacity="0.25"/>
+    <g transform="translate(36,30) scale(2)">
+      <path fill="#FFFFFF" d="M54,26c-11.6,0 -21,9.4 -21,21c0,15.7 21,35 21,35s21,-19.3 21,-35c0,-11.6 -9.4,-21 -21,-21zM54,54.5c-4.1,0 -7.5,-3.4 -7.5,-7.5s3.4,-7.5 7.5,-7.5s7.5,3.4 7.5,7.5s-3.4,7.5 -7.5,7.5z" transform="translate(-27,-20)"/>
+    </g>
+  </g>
+  <g font-family="Inter, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" fill="#ffffff">
+    <text x="300" y="128" font-size="60" font-weight="800" letter-spacing="-1">Sentient Attendance</text>
+    <text x="302" y="176" font-size="24" fill="#CFF7EF" font-weight="500">Geofence attendance for SentientX teams — Android · iPhone web · Telegram</text>
+    <g transform="translate(302,208)" font-size="17" font-weight="600">
+      <rect width="176" height="40" rx="20" fill="#00E5C3"/><text x="88" y="26" text-anchor="middle" fill="#06302C">Android app</text>
+      <rect x="192" width="176" height="40" rx="20" fill="#ffffff" fill-opacity="0.14" stroke="#ffffff" stroke-opacity="0.4"/><text x="280" y="26" text-anchor="middle">Admin console</text>
+      <rect x="384" width="176" height="40" rx="20" fill="#ffffff" fill-opacity="0.14" stroke="#ffffff" stroke-opacity="0.4"/><text x="472" y="26" text-anchor="middle">Web dashboard</text>
+    </g>
+  </g>
+</svg>
