@@ -13,8 +13,8 @@
 <p align="center">Tap <b>Login Today</b> at the office and the app does the rest: presence is verified against the office geofence for the length of your shift, and admins see the whole team live.</p>
 
 <p align="center">
-  <a href="https://github.com/MrRatsKant/sentient-attendance-releases/releases/download/v0.2.0/sentient-attendance-v0.2.0.apk"><b>⬇️ Employee app v0.2.0</b></a> &nbsp;·&nbsp;
-  <a href="https://github.com/MrRatsKant/sentient-attendance-releases/releases/download/v0.2.0/attendance-admin-v0.2.0.apk"><b>🛡️ Admin app v0.2.0</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/MrRatsKant/sentient-attendance-releases/releases/download/v0.0.30/sentient-attendance-v0.0.30.apk"><b>⬇️ Employee app v0.0.30</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/MrRatsKant/sentient-attendance-releases/releases/download/v0.0.30/attendance-admin-v0.0.30.apk"><b>🛡️ Admin app v0.0.30</b></a> &nbsp;·&nbsp;
   <a href="https://sentientx.web.app"><b>🌐 Install page</b></a> &nbsp;·&nbsp;
   <a href="https://sentientx.web.app/app/"><b>🍎 iPhone web app</b></a> &nbsp;·&nbsp;
   <a href="https://t.me/sentientx_attendance_bot"><b>✈️ Telegram bot</b></a>
@@ -51,7 +51,7 @@ Attendance is only recorded **at the office, inside your shift window**. Nothing
 
 Requires Android 8.0 or newer. The app is distributed here rather than on the Play Store, so a one-time "unknown apps" permission is needed.
 
-1. Download **[sentient-attendance-v0.2.0.apk](https://github.com/MrRatsKant/sentient-attendance-releases/releases/download/v0.2.0/sentient-attendance-v0.2.0.apk)**. If the browser warns about the file type, choose *Download anyway*.
+1. Download **[sentient-attendance-v0.0.30.apk](https://github.com/MrRatsKant/sentient-attendance-releases/releases/download/v0.0.30/sentient-attendance-v0.0.30.apk)**. If the browser warns about the file type, choose *Download anyway*.
 2. Open the file from the notification shade or your Files app.
 3. When asked, allow your browser to install unknown apps. Settings opens automatically: flip the toggle, then press back.
 4. Tap **Install**. If Play Protect asks, choose *Install anyway*. This is SentientX's internal app.
@@ -100,7 +100,7 @@ A consent screen explains tracking before the home screen appears, in English an
 
 ## For admins
 
-- **Admin app:** [attendance-admin-v0.2.0.apk](https://github.com/MrRatsKant/sentient-attendance-releases/releases/download/v0.2.0/attendance-admin-v0.2.0.apk). Approvals, roster, shifts, broadcasts, employee profiles, and per-employee ping.
+- **Admin app:** [attendance-admin-v0.0.30.apk](https://github.com/MrRatsKant/sentient-attendance-releases/releases/download/v0.0.30/attendance-admin-v0.0.30.apk). Approvals, roster, shifts, broadcasts, employee profiles, and per-employee ping.
 - **Web dashboard:** [sentientx.web.app/admin](https://sentientx.web.app/admin/). Live boards, payroll summary, fleet health, reminder timing, and decision history.
 - **Telegram:** a daily digest of check-ins and stragglers, plus alerts when the platform needs attention.
 
@@ -108,18 +108,10 @@ Admin access is granted by SentientX IT. Employee accounts cannot see the admin 
 
 ## Release history
 
-Every release ships two APKs: `sentient-attendance-<version>.apk` for employees and `attendance-admin-<version>.apk` for admins. Full notes are on each release page.
+Every release ships two APKs: `sentient-attendance-<version>.apk` for employees and `attendance-admin-<version>.apk` for admins. Full notes are on each release page. Versions are listed newest first. The v0.1.x and v0.2.0 tags were the August 2026 beta series; numbering restarted at v0.0.1 for the first official release, so the newest builds are the v0.0.x line.
 
 | Version | Date | Highlights |
 |---|---|---|
-| [v0.2.0](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.2.0) | 2026-08-04 | Employee app redesigned: no tabs — one colorful page with a big Login Today button that verifies your GPS position against the office perimeter before marking a |
-| [v0.1.6](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.1.6) | 2026-08-04 | CRITICAL: fixes invisible text on the sign-in screen for dark-mode phones. |
-| [v0.1.5](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.1.5) | 2026-08-04 | Status pills across every screen: green ● LIVE (real server/tracking data) vs amber ● MOCK DATA (demo). |
-| [v0.1.4](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.1.4) | 2026-08-04 | Admin Dashboard is now an at-a-glance monitoring hub: team counts, needs-attention queue (tap → Approvals), roster grouped by shift with unassigned warnings, on |
-| [v0.1.3](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.1.3) | 2026-08-04 | Simple-language 6-page tutorial on first open (replayable from Profile). |
-| [v0.1.2](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.1.2) | 2026-08-04 | Admin app now has an amber shield icon (employee keeps the teal pin). |
-| [v0.1.1](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.1.1) | 2026-08-04 | All demo/mock data removed from live builds: real profile, real roster in admin, honest empty states until attendance sync ships. |
-| [v0.1.0](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.1.0) | 2026-08-04 | First beta: engine-driven attendance, live tracking (test mode), auth + approvals + broadcasts on Firebase. |
 | [v0.0.30](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.0.30) | 2026-09-12 | Reminder timing is now admin-configurable (web dashboard → Reminder timing: ring lead + two follow-ups); the phone alarm follows the configured lead. |
 | [v0.0.29](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.0.29) | 2026-09-12 | Ping delivery receipts: the phone now reports back whether an admin ping rang (or was silent/blocked) and when the ring screen was tapped. |
 | [v0.0.28](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.0.28) | 2026-09-10 | Honest check-in state: amber 'Not checked in yet' card + 'Check in now' button while the shift window is open but no in-office fix was recorded (was shown as LIVE). |
@@ -150,6 +142,14 @@ Every release ships two APKs: `sentient-attendance-<version>.apk` for employees 
 | [v0.0.3](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.0.3) | 2026-08-04 | Attendance now syncs to the server: check-ins, gaps, out-of-fence time and day status flow from each phone into secure per-day records (budget-capped writes, de |
 | [v0.0.2](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.0.2) | 2026-08-04 | Fixes users stuck at the login page: interrupted signups now self-heal their profile (was an infinite spinner), clear human error messages (wrong password vs cr |
 | [v0.0.1](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.0.1) | 2026-08-04 | First official (non-beta) release. |
+| [v0.2.0](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.2.0) *(early beta)* | 2026-08-04 | Employee app redesigned: no tabs — one colorful page with a big Login Today button that verifies your GPS position against the office perimeter before marking a |
+| [v0.1.6](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.1.6) *(early beta)* | 2026-08-04 | CRITICAL: fixes invisible text on the sign-in screen for dark-mode phones. |
+| [v0.1.5](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.1.5) *(early beta)* | 2026-08-04 | Status pills across every screen: green ● LIVE (real server/tracking data) vs amber ● MOCK DATA (demo). |
+| [v0.1.4](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.1.4) *(early beta)* | 2026-08-04 | Admin Dashboard is now an at-a-glance monitoring hub: team counts, needs-attention queue (tap → Approvals), roster grouped by shift with unassigned warnings, on |
+| [v0.1.3](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.1.3) *(early beta)* | 2026-08-04 | Simple-language 6-page tutorial on first open (replayable from Profile). |
+| [v0.1.2](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.1.2) *(early beta)* | 2026-08-04 | Admin app now has an amber shield icon (employee keeps the teal pin). |
+| [v0.1.1](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.1.1) *(early beta)* | 2026-08-04 | All demo/mock data removed from live builds: real profile, real roster in admin, honest empty states until attendance sync ships. |
+| [v0.1.0](https://github.com/MrRatsKant/sentient-attendance-releases/releases/tag/v0.1.0) *(early beta)* | 2026-08-04 | First beta: engine-driven attendance, live tracking (test mode), auth + approvals + broadcasts on Firebase. |
 
 ## Support
 
