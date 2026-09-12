@@ -22,8 +22,21 @@
 
 ---
 
+## Screenshots
+
+<p align="center">
+  <img src="assets/screenshots/employee-home.png" alt="Employee home screen: attendance live, time at office, announcements, requests" width="30%">
+  &nbsp;&nbsp;
+  <img src="assets/screenshots/call-ping.png" alt="Full-screen call ping: It works, Reminder received button" width="30%">
+</p>
+<p align="center">
+  <img src="assets/screenshots/admin-dashboard.png" alt="Admin web dashboard: today's attendance, reminder timing, fleet health" width="92%">
+</p>
+<p align="center"><sub>Illustrative renders with demo data. Names, times, and figures are fictional.</sub></p>
+
 ## Contents
 
+- [Screenshots](#screenshots)
 - [What it does](#what-it-does)
 - [Install on Android](#install-on-android)
 - [iPhone](#iphone)
